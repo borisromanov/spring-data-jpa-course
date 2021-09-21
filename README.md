@@ -28,3 +28,12 @@ In this course you learn everything there is to learn about Spring Data JPA allo
 - `git checkout section-6`
 - `git checkout section-7`
 - `git checkout section-1`
+
+## Personal notes
+
+1. Change server port to 8081
+    - application.properties  `server.port=8081`
+2. Create a new database table and access it
+    - `psql`
+    - `CREATE DATABASE jpa_test;`
+    - In application.properties: `spring.datasource.url=jdbc:postgresql://localhost:5432/jpa_test`
